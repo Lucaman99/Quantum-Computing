@@ -7,7 +7,7 @@ import math
 #Inputted number for partitioning
 n = 3
 
-#sampler = EmbeddingComposite(DWaveSampler(endpoint='https://cloud.dwavesys.com/sapi', token='DEV-674dd7ba27484b99e54e0a675f7eadabc4ee797b', solver='DW_2000Q_2_1'))
+#sampler = EmbeddingComposite(DWaveSampler(endpoint='', token='', solver=''))
 #Not Gate
 query = {('x', 'x'): -1, ('x', 'z'): 2, ('z', 'x'): 0, ('z', 'z'): -1}
 #OR Gate
